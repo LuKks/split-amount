@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Split amount into parts",
   "main": "index.js",
+  "files": [],
   "scripts": {
     "test": "standard && brittle test.js"
   },

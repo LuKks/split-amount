@@ -21,11 +21,19 @@ splitAmount(10, 3, { min: 3 }) // => [4, 3, 3]
 
 ## API
 
-#### `const parts = splitAmount(amount, size)`
+#### `const parts = splitAmount(amount, size, [options])`
 
 Split amount into smaller parts.
 
-If `amount` is a BigInt, the returned parts will also be `BigInt`.
+If `amount` is a BigInt, it will return `parts` as BigInts also.
+
+Available `options`
+
+```js
+{
+  min: 0n
+}
+```
 
 ## License
 
